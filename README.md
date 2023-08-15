@@ -5,6 +5,7 @@
   - [Plataforma de desarrollo](#plataforma-de-desarrollo)
   - [Objetivo:](#objetivo)
   - [Ubicacion y archivos de los drivers](#ubicacion-y-archivos-de-los-drivers)
+- [Idea general del proyecto](#idea-general-del-proyecto)
 - [Uso de Uart driver](#uso-de-uart-driver)
   - [inicializacion](#inicializacion)
   - [Transmision por UART](#transmision-por-uart)
@@ -42,6 +43,17 @@ Implementar un MEF para trabajar con anti-rebotes por software.
     ├───CMSIS
     └───STM32F4xx_HAL_Driver
 ```
+# Idea general del proyecto
+
+El objetivo de este proyecto es diseñar y construir un dispositivo electrónico que mida la humedad del suelo, la humedad ambiental y la temperatura ambiental para plantas de interior. Este dispositivo será una herramienta valiosa para monitorear el estado de las plantas que ayudaría a mantenerlas sanas. Además:
+Reduce el desperdicio de agua.
+Ahorra dinero en fertilizantes.
+Facilita el cuidado de las plantas de interior.
+
+![alt text](Esquema_v0.png "Placa")
+
+
+
 # Uso de Uart driver
 
 El driver consta principalmente de 3 funciones. Una de inicializacion y dos de funcionamiento continuo.
