@@ -93,7 +93,7 @@ Teniendo en cuenta el diagramas de tiempos del sensor, se procedio a realizar un
 
 Para lo cual se implemento un TIMER (TIMx) del STM32 para contar uS (microsegundos) en una interrupcion de flanco decendente cuando el DHT11 respondiera siguiendo la siguiente logica:
 
-![alt text](FSM_DHT11.drawio.png "Placa")
+![alt text](FSM_DHT11_2.drawio.png "Placa")
 
 
 ## Autor
