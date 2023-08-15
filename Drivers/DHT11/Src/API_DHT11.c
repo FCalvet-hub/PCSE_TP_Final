@@ -50,8 +50,7 @@ volatile dhtDataFormat_t dhtBinData;
 volatile uint8_t contador = 0;
 
 void dhtInit()
-{
-	// pinInit();
+{	
 
 	/* Configuramos el pin como salida */
 	configPinAsOutput();

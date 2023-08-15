@@ -45,14 +45,6 @@ void dhtStartComm(void);
 
 /**
  * @brief Función para inicializar el sensor DHT.
- *
- * La función configura el pin del GPIO como salida, lo pone a nivel alto,
- * configura la interrupción del GPIO y el temporizador.
- *
- * @param GPIO_TypeDef* GPIO_port Puerto del GPIO que se va a utilizar.
- * @param uint16_t GPIO_Pin Pin del GPIO que se va a utilizar.
- * @param IRQn_Type PIN_EXTI_IRQn Número de la interrupción del GPIO.
- * @param TIM_HandleTypeDef *TIMHandle Handle del temporizador que se va a utilizar.
  */
 void dhtInit();
 
